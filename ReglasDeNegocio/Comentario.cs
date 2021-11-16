@@ -8,11 +8,27 @@ namespace ReglasDeNegocio
 {
     public class Comentario
     {
-        int IdComentario { get; set; }
-        int IdPost { get; set; }
-        int IdUsuarioComentario { get; set; }
-        DateTime Publicacion { get; set; }
-        string Contenido { get; set; }
+        public int IdComentario { get; set; }
+        public int IdPost { get; set; }
+        public int IdUsuarioComentario { get; set; }
+        public DateTime Publicacion { get; set; }
+        public string Contenido { get; set; }
+        public string Nickname { get; set; }
+        Repositorio Repositorio { get; set; }
 
+        public Comentario(){    }
+        public Comentario(Repositorio repositorio)
+        {
+            this.Repositorio = repositorio;
+        }
+        public bool RegistarComentario(int idPost, int idUsuarioComentario, string contenido)
+        {
+            IdPost = idPost;
+            IdUsuarioComentario = idUsuarioComentario;
+            Publicacion = DateTime.Now;
+            Contenido = contenido;
+            IdComentario = Repositorio.RegistrarComentario(IdPost, IdUsuarioComentario, Publicacion, Contenido);
+            return IdComentario != 0;
+        }
     }
 }

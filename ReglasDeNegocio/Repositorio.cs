@@ -8,8 +8,13 @@ namespace ReglasDeNegocio
 {
     public interface Repositorio
     {
-        bool IniciarSesion(string Correo, string Contrasena);
+        int IniciarSesion(string Correo, string Contrasena);
         bool RegistrarUsuario(string Correo, string Contrasena, string NickName, DateTime FechaNacimiento);
-        bool ConsultarCorreo(string Correo);
+        int ConsultarCorreo(string Correo);
+        int RegistrarPost(int idUsuarioPost, DateTime fechaPublicacion, string contenido);
+        void AumentarLikes(int idPost);
+        List<Comentario> ConsultarComentarios(int idPost);
+        List<Post> ConsultarPostGenerales();
+        int RegistrarComentario(int idPost, int idUsuarioComentario, DateTime fechaPublicacion, string Contenido);
     }
 }
