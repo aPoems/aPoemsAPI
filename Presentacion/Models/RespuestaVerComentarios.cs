@@ -2,12 +2,12 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
+using ReglasDeNegocio;
 
 namespace Presentacion.Models
 {
-    public class RespuestaBool
+    public class RespuestaVerComentarios
     {
-        public bool Resultado { get; set; }
-        public int IdUsuarioInicioSesion { get; set; }
+        public List<Comentario> Resultado { get; set; }
     }
 }

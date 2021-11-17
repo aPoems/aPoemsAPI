@@ -162,9 +162,14 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\RespuestaBool.cs" />
+    <Compile Include="Models\RespuestaLikePost.cs" />
+    <Compile Include="Models\RespuestaVerPost.cs" />
+    <Compile Include="Models\SolicitudComentarPost.cs" />
     <Compile Include="Models\SolicitudIniciarSesion.cs" />
+    <Compile Include="Models\SolicitudLikePost.cs" />
     <Compile Include="Models\SolicitudPublicarPost.cs" />
     <Compile Include="Models\SolicitudRegistroUsuario.cs" />
+    <Compile Include="Models\SolicitudVerPost.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

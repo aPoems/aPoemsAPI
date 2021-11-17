@@ -5,9 +5,10 @@ using System.Web;
 
 namespace Presentacion.Models
 {
-    public class SolicitudPublicarPost
+    public class SolicitudComentarPost
     {
-        public int IdUsuario { get; set; }
+        public int IdPost { get; set; }
+        public int IdUsuarioComentario { get; set; }
         public string Contenido { get; set; }
     }
 }

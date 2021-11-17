@@ -5,9 +5,8 @@ using System.Web;
 
 namespace Presentacion.Models
 {
-    public class RespuestaBool
+    public class SolicitudVerPost
     {
-        public bool Resultado { get; set; }
-        public int IdUsuarioInicioSesion { get; set; }
+
     }
 }

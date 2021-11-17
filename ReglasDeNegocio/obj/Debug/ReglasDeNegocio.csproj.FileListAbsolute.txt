@@ -4,3 +4,9 @@ C:\Users\Miguel Mena\Downloads\aPoemsAPI-master\aPoemsAPI-master\ReglasDeNegocio
 C:\Users\Miguel Mena\Downloads\aPoemsAPI-master\aPoemsAPI-master\ReglasDeNegocio\obj\Debug\ReglasDeNegocio.csproj.CoreCompileInputs.cache
 C:\Users\Miguel Mena\Downloads\aPoemsAPI-master\aPoemsAPI-master\ReglasDeNegocio\obj\Debug\ReglasDeNegocio.dll
 C:\Users\Miguel Mena\Downloads\aPoemsAPI-master\aPoemsAPI-master\ReglasDeNegocio\obj\Debug\ReglasDeNegocio.pdb
+C:\Users\Miguel Mena\Desktop\aPoems API Clone\aPoemsAPI\ReglasDeNegocio\bin\Debug\ReglasDeNegocio.dll
+C:\Users\Miguel Mena\Desktop\aPoems API Clone\aPoemsAPI\ReglasDeNegocio\bin\Debug\ReglasDeNegocio.pdb
+C:\Users\Miguel Mena\Desktop\aPoems API Clone\aPoemsAPI\ReglasDeNegocio\obj\Debug\ReglasDeNegocio.csproj.AssemblyReference.cache
+C:\Users\Miguel Mena\Desktop\aPoems API Clone\aPoemsAPI\ReglasDeNegocio\obj\Debug\ReglasDeNegocio.csproj.CoreCompileInputs.cache
+C:\Users\Miguel Mena\Desktop\aPoems API Clone\aPoemsAPI\ReglasDeNegocio\obj\Debug\ReglasDeNegocio.dll
+C:\Users\Miguel Mena\Desktop\aPoems API Clone\aPoemsAPI\ReglasDeNegocio\obj\Debug\ReglasDeNegocio.pdb
