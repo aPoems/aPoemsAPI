@@ -7,11 +7,15 @@ using System.Web.Http;
 using ReglasDeNegocio;
 using Presentacion.Models;
 using AccesoDatos;
+using Microsoft.AspNetCore.Cors;
 
 namespace Presentacion.Controllers
 {
+    
+
     public class UsuarioController : ApiController
     {
+        
         [Route("api/RegistrarUsuario")]
         [HttpPost]
         public RespuestaBool RegistrarUsuario([FromBody] SolicitudRegistroUsuario solicitud)
@@ -50,8 +54,8 @@ namespace Presentacion.Controllers
             resp.IdUsuarioInicioSesion = idUsuaio;
 
             return resp;
-        }        
-
+        }
+        [EnableCors]
         [Route("api/VerPost")]
         [HttpPost]
         public RespuestaVerPost VerPost([FromBody] SolicitudVerPost solicitud)
